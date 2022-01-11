@@ -9,7 +9,7 @@ import { Route, Switch } from "react-router-dom";
 
 import Navbar from "./Navbar";
 import Skills from "./Skills";
-import Resume from "./Resume";
+
 function App() {
   return (
     <>
@@ -21,7 +21,7 @@ function App() {
        <Route path="/project" component={Project} />
        <Route path="/contact" component={Contact} />
        <Route path="/skills" component={Skills} />
-       <Route path="/resume" component={Resume} />
+       
      </Switch>
 
      

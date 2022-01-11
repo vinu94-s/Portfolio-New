@@ -1,0 +1,59 @@
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  form {
+    margin: 2rem 0rem;
+  }
+  label {
+    
+    color: black;
+    font-weight: 700;
+    text-align: left;
+  }
+  
+  .field {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+  }
+  
+  
+  input {
+    margin: 4px;
+    padding: 2px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e6e6e6;
+    border-bottom:3px solid #009fb8;
+    color: black;
+  }
+  textarea{
+
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    border: none;
+    border-bottom:3px solid #009fb8;
+  }
+  .action {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    border:3px solid #009fb8;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .action:hover{
+    background-color: #4470d6;
+      color: white;
+  }
+  
+ 
+  
+  

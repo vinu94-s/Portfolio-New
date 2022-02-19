@@ -14,7 +14,7 @@ import {
   
 } from "@material-ui/core";
 import Fade from "react-reveal/Fade";
-import project1 from "./images/Zankoo.png";
+import project1 from "./images/ecommerce.PNG";
 import project2 from "./images/NoteZipper.png";
 import project3 from "./images/Insta clone.png";
 import project4 from "./images/Capture2.png";
@@ -47,9 +47,7 @@ const Projects = () => {
                   Ecommerce-MERN
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Ecommerce is created with MERN.This app is used for Online
-                  shopping for Men wear, we can add the product through cart and
-                  proceed to buy.
+                This ecommerce store enable two main different flows Buyers browse the store categories, products and brands and Admins to manage and control the entire store components
                 </Typography>
                 <p>
                 Technologies Used-<span className="card-text">React,Nodejs,MongoDB</span>
@@ -57,12 +55,12 @@ const Projects = () => {
               </CardContent>
             </CardActionArea>
             <CardActions className="cards">
-              <a href="https://github.com/vinu94-s/Ecommerce" className="btn d-lg-inline-block">
+              <a href="https://github.com/vinu94-s/Ecommerce-Task" className="btn d-lg-inline-block" onClick={() => window.open("https://github.com/vinu94-s/Ecommerce-Task")} target="_blank" rel="noopener noreferrer">
                 
                   Source Code
                 
               </a>
-              <a href="https://warm-forest-12403.herokuapp.com/" className="btn d-lg-inline-block">
+              <a href="https://myshop-mern-ecommerce.herokuapp.com/" className="btn d-lg-inline-block" onClick={() => window.open("https://myshop-mern-ecommerce.herokuapp.com/")} target="_blank" rel="noopener noreferrer">
               
                 Live Demo
               
@@ -95,12 +93,12 @@ const Projects = () => {
               </CardContent>
             </CardActionArea>
             <CardActions className="cards">
-                <a href="https://github.com/vinu94-s/CRUD-MERN" className="btn d-lg-inline-block" >
+                <a href="https://github.com/vinu94-s/CRUD-MERN" className="btn d-lg-inline-block" onClick={() => window.open("https://github.com/vinu94-s/CRUD-MERN")} target="_blank" rel="noopener noreferrer">
             
                 Source Code
             
               </a>
-              <a href="https://notezipper.herokuapp.com/" className="btn d-lg-inline-block">
+              <a href="https://notezipper.herokuapp.com/" className="btn d-lg-inline-block" onClick={() => window.open("https://notezipper.herokuapp.com/" )} target="_blank" rel="noopener noreferrer">
               
                 Live Demo
               
@@ -132,12 +130,12 @@ const Projects = () => {
               </CardContent>
             </CardActionArea>
             <CardActions className="cards">
-                <a href="https://github.com/vinu94-s/insta-clone" className="btn d-lg-inline-block">
+                <a href="https://github.com/vinu94-s/insta-clone" className="btn d-lg-inline-block" onClick={() => window.open("https://github.com/vinu94-s/insta-clone")} target="_blank" rel="noopener noreferrer">
               
                 Source Code
               
               </a>
-              <a href ="https://insta-alsq.herokuapp.com/" className="btn d-lg-inline-block">
+              <a href ="https://insta-alsq.herokuapp.com/" className="btn d-lg-inline-block" onClick={() => window.open("https://insta-alsq.herokuapp.com/")} target="_blank" rel="noopener noreferrer">
               
                 Live Demo
             
@@ -169,12 +167,14 @@ const Projects = () => {
               </CardContent>
             </CardActionArea>
             <CardActions className="cards">
-            <a href="https://github.com/vinu94-s/Food-app" className="btn d-lg-inline-block">
+              
+            <a href="https://github.com/vinu94-s/Food-app" className="btn d-lg-inline-block"  onClick={() => window.open("https://github.com/vinu94-s/Food-app" )} target="_blank" rel="noopener noreferrer">
               
                 Source Code
               
               </a>
-              <a href="https://foodtime-app.herokuapp.com/" className="btn d-lg-inline-block">
+              <a href="https://foodtime-app.herokuapp.com/" className="btn d-lg-inline-block" onClick={() => window.open("https://foodtime-app.herokuapp.com/" )}  target="_blank" rel="noopener noreferrer">
+              
               
                 Live Demo
               
@@ -208,12 +208,12 @@ const Projects = () => {
               </CardContent>
             </CardActionArea>
             <CardActions className="cards">
-                <a href="https://github.com/vinu94-s/Pizza-app" className="btn d-lg-inline-block">
+                <a href="https://github.com/vinu94-s/Pizza-app" className="btn d-lg-inline-block" onClick={() => window.open("https://github.com/vinu94-s/Pizza-app")} target="_blank" rel="noopener noreferrer">
               
                 Source Code
               
               </a>
-              <a href="https://pizza-app-19bb3.web.app" className="btn d-lg-inline-block">
+              <a href="https://pizza-app-19bb3.web.app" className="btn d-lg-inline-block" onClick={() => window.open("https://pizza-app-19bb3.web.app")} target="_blank" rel="noopener noreferrer">
               
                 Live Demo
             
@@ -247,12 +247,12 @@ const Projects = () => {
               </CardContent>
             </CardActionArea>
             <CardActions className="cards">
-            <a href="https://github.com/vinu94-s/Makeup" className="btn d-lg-inline-block">
+            <a href="https://github.com/vinu94-s/Makeup" className="btn d-lg-inline-block" onClick={() => window.open("https://github.com/vinu94-s/Makeup")}  target="_blank" rel="noopener noreferrer">
               
                 Source Code
             
               </a>
-              <a href="https://wonderful-ride-d679be.netlify.app"className="btn d-lg-inline-block">
+              <a href="https://wonderful-ride-d679be.netlify.app"className="btn d-lg-inline-block"onClick={() => window.open("https://wonderful-ride-d679be.netlify.app")}  target="_blank" rel="noopener noreferrer">
               
                 Live Demo
               

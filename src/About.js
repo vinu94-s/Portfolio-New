@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import Fade from "react-reveal/Fade";
 import Image from "./images/aboutpic.png"
-import ResumePDF from "./images/resume.pdf"
+import ResumePDF from "./images/Vinu.pdf"
 const About = () => {
   return (
     <div className="container about">

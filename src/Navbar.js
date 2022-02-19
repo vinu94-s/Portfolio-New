@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import ResumePDF from "./images/resume.pdf"
+import Resume from "./images/Vinu.pdf";
 
 
 const Navbar = () => {
@@ -63,9 +63,9 @@ const Navbar = () => {
                                         <div className='Resume-button'>
      
                                         <a
-                href="ResumePDF"
+                href="Resume"
                 className="btn"
-                onClick={() => window.open(ResumePDF)}
+                onClick={() => window.open(Resume)}
                 target="_blank"
                 rel="noreferrer"
               >
